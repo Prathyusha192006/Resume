@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.resume-wrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.resume-left {
+    width: 35%;
+    background-color: #002b5b;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.resume-right {
+    width: 65%;
+    padding: 30px 40px;
+}
+
+.resume-header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #e29453;
+}
+
+.resume-header .lastname {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #ddd;
+}
+
+.resume-section {
+    margin-top: 25px;
+}
+
+.resume-section h2 {
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #469dae;
+}
+
+.resume-section ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.resume-section ul li {
+    margin: 8px 0;
+}
+
+.contact-list li,
+.profile-links li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.profile-links a:hover {
+    text-decoration: underline;
+}
+
+.edu-item,
+.exp-item {
+    margin-bottom: 15px;
+}
+
+.exp-title {
+    font-weight: bold;
+    color: #002b5b;
+}
+
+.exp-meta {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.edu-meta {
+    font-size: 13px;
+    color: #555;
+}
